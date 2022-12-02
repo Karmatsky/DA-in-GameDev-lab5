@@ -37,6 +37,22 @@
 ## Цель работы
 Интегрировать экономическую систему в проект Unity и обучить ML-Agent
 
+Скачиваем проект, открываем его в Unity, устанавливаем ML-Agenta
+
+![Image alt](https://raw.githubusercontent.com/Karmatsky/DA-in-GameDev-lab5/main/Pic1.png)
+Перед тем как перейти к началу обучения, запустим Anaconda Prompt (от имени администратора) и создадим виртуальное пространтсво 
+``` conda create -n MLAgent python=3.6.13 ```
+
+И активируем его ```conda activate MLAgent```
+
+Теперь установим необходимые для работы пакеты:
+
+```
+pip install mlagents==0.28.0
+pip install torch~=1.7.1 --f https://download.pytorch.org/whl/torch_stable.html
+```
+
+
 ## Задание 1
 **Измените параметры файла. yaml-агента и определить какие параметры и как влияют на обучение модели**
 
