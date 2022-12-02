@@ -37,6 +37,10 @@
 ## Цель работы
 Интегрировать экономическую систему в проект Unity и обучить ML-Agent
 
+## Задание 1
+**Измените параметры файла. yaml-агента и определить какие параметры и как влияют на обучение модели**
+
+
 Скачиваем проект, открываем его в Unity, устанавливаем ML-Agenta
 
 ![Image alt](https://raw.githubusercontent.com/Karmatsky/DA-in-GameDev-lab5/main/Pic1.png)
@@ -51,17 +55,21 @@
 pip install mlagents==0.28.0
 pip install torch~=1.7.1 --f https://download.pytorch.org/whl/torch_stable.html
 ```
+Запускаем нашего ML-Agent'a на обучение:
+![Image alt](https://raw.githubusercontent.com/Karmatsky/DA-in-GameDev-lab5/main/Pic2.png)
 
+Спустя некоторое время завершаем обучение модели:
+![Image alt](https://raw.githubusercontent.com/Karmatsky/DA-in-GameDev-lab5/main/Pic3.png)
 
-## Задание 1
-**Измените параметры файла. yaml-агента и определить какие параметры и как влияют на обучение модели**
+Далее построим графики для оценки результатов обучения. Для этого установливаем TensorBoard командой ```pip install tensorflow```
+![Image alt](https://raw.githubusercontent.com/Karmatsky/DA-in-GameDev-lab5/main/pic4.png)
 
 ## Задание 2 
 **Опишите результаты, выведенные в TensorBoard**
 
 ## Выводы
 
-
+В процессе выполнения данной лабораторной работы я научился использовать ML-Agent вместе с экономической системой в Unity. С мопощью этих инструментов можно прибить инфляцию в игре. Визуализировать процесс работы помогает TensorBoard.
 
 | Plugin | README |
 | ------ | ------ |
