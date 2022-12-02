@@ -69,7 +69,7 @@ pip install torch~=1.7.1 --f https://download.pytorch.org/whl/torch_stable.html
 
 После обучения ML-Агента установил в виртуальную среду TensorFlow и открыл TensorBoard, с результатами обучения.
 
-![Image alt]((https://raw.githubusercontent.com/Karmatsky/DA-in-GameDev-lab5/main/pic5.png)
+![Image alt](https://raw.githubusercontent.com/Karmatsky/DA-in-GameDev-lab5/main/pic5.png)
 
 Со стандартными параметрами ```Economic.yaml```:
 ```cs
