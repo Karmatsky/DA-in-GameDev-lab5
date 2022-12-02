@@ -42,7 +42,7 @@
 
 Скачиваем проект, открываем его в Unity, устанавливаем ML-Agenta
 
-![Image alt](https://raw.githubusercontent.com/Karmatsky/DA-in-GameDev-lab5/main/Pic1.png)
+![Image alt](https://raw.githubusercontent.com/Karmatsky/DA-in-GameDev-lab5/main/pic14.png)
 Перед тем как перейти к началу обучения, запустим Anaconda Prompt (от имени администратора) и создадим виртуальное пространтсво 
 ``` conda create -n MLAgent python=3.6.13 ```
 
